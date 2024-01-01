@@ -1,0 +1,78 @@
+.world-map {
+  position: absolute;
+  margin-top: 96px;
+  background-image: url("../assets/worldmap.svg");
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.center-div {
+  width: 756px;
+  height: 265px;
+  padding: 51px;
+}
+
+.home-slogan {
+  font-size: 49px;
+  text-align: center;
+}
+
+.center-div {
+  margin: auto;
+  background-image: url("../assets/gradient-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-top: 93px;
+  margin-bottom: 48px;
+}
+
+.details-home {
+  width: 1300px;
+  position: relative;
+  bottom: 128px;
+  margin: auto;
+}
+
+.input-home {
+  height: 48px;
+  font-size: 25px;
+  padding-left: 10px;
+  color: #494a4c;
+}
+
+.input-home::placeholder {
+  color: #7c8db0;
+}
+
+.input-text {
+  width: 250px;
+}
+
+.input-date {
+  width: 200px;
+}
+
+.input-submit {
+  width: 135px;
+  background-color: #605dec;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.input-class {
+  width: 200px;
+}
+
+.details-home form input[type="date"] {
+  height: 30px;
+  font-size: 20px;
+  color: #7c8db0;
+  width: 200px;
+}

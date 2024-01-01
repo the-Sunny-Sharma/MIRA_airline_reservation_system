@@ -1,0 +1,57 @@
+/* ReportAnalytics.css */
+
+/* Styles for the main container */
+.report-analytics-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Title style */
+h2 {
+    color: #605DEC;
+}
+
+/* Styles for the summary section */
+.analytics-summary {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.analytics-summary div {
+    margin-bottom: 5px;
+    color: #6E7491;
+}
+
+/* Styles for the charts/graphs section */
+.analytics-charts {
+    /* Add styles for charts/graphs */
+}
+
+/* Styles for user and financial reports sections */
+.user-reports, .financial-reports {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.report-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #7C8DB0;
+    color: #fff;
+}
+
+.report-item h3 {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.report-item p {
+    color: #fff;
+}

@@ -1,0 +1,182 @@
+.popup {
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.popup-content {
+    margin-top: 128px;
+    background-color: white;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #888888;
+    font-weight: bolder;
+    height: 500px;
+    width: 892px;
+    margin-top: 82px;
+    border-radius: 12px;
+}
+.popup-content  {
+    display: block;
+    /* margin: 0 auto; */
+}
+.show {
+    display: block;
+}
+
+.signup-col-1 {
+    height: 78px;
+    width: 812px;
+    margin: auto;
+}
+
+.heading-signup {
+    height: 33px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.close-popup {
+    display: inline;
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-tripma {
+    width: 770px;
+    display: inline;
+    color: #6E7491;
+    font-weight: 600;;
+}
+
+.input-field {
+    height: 48px;
+    width: 812px;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 24px;
+    border: 2px solid #7C8DB0;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+}
+
+.input-field::placeholder {
+    color:#A1B0CC;
+}
+
+.signup-options {
+    height: 229px;
+    margin-top: 300px;
+}
+
+.cont-with {
+    display: block;
+    width: 488px;
+    margin: auto;
+    margin-top: 12px;
+    height: 48px;
+    background-color: transparent;
+    color: #605DEC;
+    border: 2px solid #605DEC;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.hr-line {
+    width: 225px;
+}
+
+.or-text {
+    width: fit-content;
+}
+
+.hr-divide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.para-signup {
+    color: #7C8DB0;
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 8px;
+}
+
+.sharte {
+    margin-top: 8px;
+}
+
+input[type = checkbox]{
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+.sharte-p {
+    display: inline;
+    font-size: 16px;
+    color: #6E7491;
+    padding: 4px;
+}
+
+.sharte-p span {
+    color: #605DEC;
+}
+
+.submit-btn {
+    font-size: 19px;
+    background-color: #605DEC;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.or-text {
+    color: #6E7491;
+}
+
+/* ============================ */
+.parent-flex {
+    background-color: #6E7491;
+    height: 80%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-left {
+    width: 40%;
+    height: 90%;
+    background-color: #7C8DB0;
+    text-align: center;
+}
+
+.admin-right {
+    width: 40%;
+    height: 90%;
+    background-color: #7C8DB0;
+    text-align: center;
+}
+
+.img-profile {
+    margin-top: 40px;
+}

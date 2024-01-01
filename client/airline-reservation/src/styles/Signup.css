@@ -1,0 +1,106 @@
+.main-wrapper {
+    margin-top: 128px;
+}
+
+.main-content {
+    margin-top: 128px;
+    background-color: white;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #888888;
+    /* width: 30%; */
+    font-weight: bolder;
+    height: 800px;
+    width: 892px;
+    margin-top: 62px;
+    border-radius: 12px;
+}
+
+
+.signup-head {
+        width: 770px;
+        display: inline;
+        color: #6E7491;
+        font-weight: 600;;
+    }
+.popup-content-n  {
+    display: block;
+    /* margin: 0 auto; */
+}
+.show-n {
+    display: block;
+}
+
+.signup-col-1 {
+    height: 78px;
+    width: 812px;
+    margin: auto;
+}
+
+
+.close-popup {
+    display: inline;
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.input-field {
+    height: 48px;
+    width: 812px;
+    margin: auto;
+    border-radius: 4px;
+    margin-top: 12px;
+    /* color: #A1B0CC; */
+    font-weight: 300;
+    font-size: 24px;
+    border: 2px solid #7C8DB0;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+}
+
+.input-field::placeholder {
+    color:#A1B0CC;
+}
+
+.para-signup {
+    color: #7C8DB0;
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 8px;
+}
+
+.sharte-p span {
+    color: #605DEC;
+}
+
+.submit-btn {
+    font-size: 19px;
+    background-color: #605DEC;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.or-text {
+    color: #6E7491;
+}
+
+textarea {
+    /* display: block;
+    height: 70px; */
+    resize: none;
+    /* width: 90%; */
+}
+
+.signup {
+    width: 50%;
+}

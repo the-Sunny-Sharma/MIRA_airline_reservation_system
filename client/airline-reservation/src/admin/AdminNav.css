@@ -1,0 +1,36 @@
+.flex-wrap {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    background-color: #d3d5da;
+  }
+  
+ .mr-6 {
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+.admin-a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #605dec;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-a:hover{
+    background-color: #6e7491;
+    color: #fff;
+  }
+  
+  .active {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #6e7491;
+    color: #fff;
+  }

@@ -1,0 +1,100 @@
+/* styles.css */
+
+.flight-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    height: 130px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+  
+  .flight-info {
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .departure-destination {
+    font-weight: bold;
+  }
+
+  .spacing {
+    margin: 30px;
+    width: 100px;
+  }
+  
+  .additional-details {
+    margin-top: 10px;
+  }
+  
+  .booking-options {
+    flex: 0 0 100px;
+    text-align: center;
+  }
+  
+  .book-button {
+    padding: 8px 20px;
+    /* background-color: #007bff; */
+    background-color: #605DEC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+    font-size: 1.1em;
+  }
+  
+  .book-button:hover {
+    opacity: 50%;
+  }
+  
+  .price {
+    font-size: 1.2em;
+    color: #605DEC;
+    font-weight: 600;
+  }
+
+  .no-flights {
+    font-size: 2.5em;
+    width: fit-content;
+    border: 2px solid gray;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .home-btn,.back-btn {
+    text-decoration: none;
+    background-color: #605DEC;
+    padding: 10px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    transition: opacity 0.5s ease;
+  }
+
+  .home-btn:hover {
+    opacity: 50%;
+  }
+
+  .back-btn {
+  font-size: 1em;
+  font-weight: 200;
+  width: 170px;
+  }
+
+  .back-btn:hover {
+    opacity: 50%;
+
+  }

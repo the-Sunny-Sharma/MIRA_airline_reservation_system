@@ -1,0 +1,23 @@
+/* ManageUsers.css */
+
+/* Style for user list */
+.user-list {
+    margin: 20px;
+  }
+  
+  /* Style for user details */
+  .user-details {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for delete button */
+  button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

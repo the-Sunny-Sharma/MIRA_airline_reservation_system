@@ -1,0 +1,101 @@
+/* Overall Dashboard Container */
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  /* Summary Cards */
+  .summary-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .summary-cards div {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #605dec;
+    color: white;
+  }
+  
+  /* Charts/Graphs Section */
+  .charts {
+    margin-bottom: 20px;
+  }
+  
+  /* System Status Section */
+  .system-status {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #6e7491;
+    color: white;
+  }
+  
+  /* Notification Panel */
+  .notification-panel ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notification-panel li {
+    margin-bottom: 5px;
+  }
+  
+  /* Flight Schedule Table */
+  .flight-schedule table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .flight-schedule th,
+  .flight-schedule td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .flight-schedule th {
+    background-color: #7c8db0;
+    color: white;
+  }
+  
+  .notification-area {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .notification-marquee {
+    display: flex;
+    animation: marquee-animation 40s linear infinite;
+  }
+  
+  .notification-message {
+    padding-right: 20px; /* Adjust spacing between notifications */
+    font-size: 16px;
+    color: #605dec; /* Adjust color as needed */
+    white-space: nowrap;
+  }
+  
+  @keyframes marquee-animation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* CSS */
+.on-time {
+    background-color: green; /* Set the background color for on-time flights */
+    color: white; /* Set text color to improve readability */
+  }
+  
+  .delayed {
+    background-color: red; /* Set the background color for delayed flights */
+    color: white; /* Set text color to improve readability */
+  }
+  
